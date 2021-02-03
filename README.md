@@ -1,6 +1,7 @@
 # Build_Script
 For raspberry pi environment
 
+---
 ## Realsense SDK Build
 
 ### Dependencies:
@@ -22,4 +23,4 @@ cp udev rules to /etc/udev/rules.d/
 sudo cp config/99-realsense-libusb.rules /etc/udev/rules.d/
 sudo udevadm control --reload-rules && udevam trigger
 ```
-
+---
